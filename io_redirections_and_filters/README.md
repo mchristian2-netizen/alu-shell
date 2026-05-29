@@ -1,0 +1,28 @@
+# I/O Redirections and Filters Scripts
+Each script performs a specific task:
+- 0-hello_world: prints 'Hello, World'
+- 1-confused_smiley: displays a confused smiley '(Ôo)'
+- 2-hellofile: displays content of /etc/passwd
+- 3-twofiles: displays /etc/passwd and /etc/hosts
+- 4-lastlines: displays last 10 lines of /etc/passwd
+- 4-lastlines: displays last 10 lines of /etc/passwd
+- 6-third_line: displays third line of file iacta
+- 7-file: creates a file with a tricky name containing 'Best School'
+- 8-cwd_state: saves output of 'ls -la' into ls_cwd_content
+- 9-duplicate_last_line: duplicates last line of iacta
+- 10-no_more_js: deletes all .js files recursively
+- 11-directories: counts directories and subdirectories
+- 12-newest_files: lists 10 newest files
+- 13-unique: prints words that appear exactly once (sorted)
+- 15-countthatword: counts lines containing 'bin' in /etc/passwd
+- 16-whatsnext: displays 'root' and 3 lines after
+- 17-hidethisword: displays lines without 'bin' in /etc/passwd
+- 18-letteronly: displays lines starting with a letter in /etc/ssh/sshd_config
+- 19-AZ: replaces 'A' with 'Z', 'c' with 'e'
+- 20-hiago: removes all 'c' and 'C'
+- 21-reverse: reverses input
+- 22-users_and_homes: lists users and home directories from /etc/passwd
+- 23-empty_casks: lists empty files/directories (names only)
+- 24-gifs: lists .gif files without extension, case-insensitive
+- 25-acrostic: decodes acrostic using first letter of each line
+- 26-the_biggest_fan: parses NASA log TSV, shows top 11 hosts
