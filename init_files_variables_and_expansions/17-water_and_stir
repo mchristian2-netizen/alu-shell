@@ -1,2 +1,2 @@
 #!/bin/bash
-dc -e "5i $(echo $WATER | tr 'water' '01234') 4i $(echo $STIR | tr 'stir' '0123') + 8o p" | tr '01234567' 'bestchol'
+dc -e "5i $(echo $WATER | tr 'water' '01234') 4i $(echo $STIR | tr -d '.' | tr 'stir' '0123') + 8o p" | tr -d '\n' | tr '01234567' 'bestchol'
