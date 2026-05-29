@@ -1,0 +1,21 @@
+# Permissions Scripts
+Each script performs a specific permission operation:
+- 0-iam_betty: switches current user to betty
+- 1-who_am_i: prints effective username
+- 1-who_am_i: prints effective username
+- 3-new_owner: changes owner of hello to betty
+- 4-empty: creates empty file hello
+- 5-execute: adds execute permission to owner of hello
+- 6-multiple_permissions: adds execute to owner/group, read to others
+- 7-everybody: adds execute to all users
+- 8-James_Bond: gives all permissions to others, none to owner/group
+- 9-John_Doe: sets mode to -rwxr-x-wx (753)
+- 10-mirror_permissions: copies mode from olleh to hello
+- 10-mirror_permissions: copies mode from olleh to hello
+- 12-directory_permissions: creates my_dir with permissions 751
+- 12-directory_permissions: creates my_dir with permissions 751
+- 12-directory_permissions: creates my_dir with permissions 751
+- 13-change_group: changes group owner of hello to school
+- 14-change_owner_and_group: changes owner to vincent, group to staff for all files
+- 15-symbolic_link_permissions: changes owner/group of _hello (symlink) to vincent:staff
+- 16-if_only: changes owner of hello to vincent only if owned by guillaume
